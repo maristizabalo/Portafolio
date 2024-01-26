@@ -5,7 +5,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Portafolio Mj Aristizabal',
+  title: 'Mj Aristizabal',
   description: 'Created with Next.js and several technologies',
 }
 
