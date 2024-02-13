@@ -14,11 +14,13 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+  params: {locale}
 }: {
-  children: React.ReactNode
+  children: React.ReactNode,
+  params: {locale: string};
 }) {
   return (
-    <html lang="en">
+    <html lang={locale}>
       <body className={`${inter.className} bg-[#030014] overflow-y-scroll overflow-x-hidden`} >
         <StarsCanvas />
         <Navbar />
